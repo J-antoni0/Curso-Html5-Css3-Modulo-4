@@ -1,0 +1,74 @@
+
+    @charset 'UTF-8';
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    html , body {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        background-image: url(../imagens/fundo-madeira.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    figure#iphone {
+        height: 500px;
+        width: 350px;
+        background-image : url(../imagens/frame-iphone.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 250px;
+    }
+
+    figure.logos {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        right: 10px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 50px;
+        border-radius: 50%;
+    }
+
+    #logo-home {
+        background-image: url(../imagens/logo-home.jpg);
+        top: 10px;
+    }
+
+    #logo-yt {
+        background-image: url(../imagens/logo-youtube.jpg);
+        top: 80px;
+    }
+
+    #logo-gh {
+        background-image: url(../imagens/logo-github.jpg);
+        top: 150px;
+    }
+
+    #logo-ig {
+        background-image: url(../imagens/logo-instagram.jpg);
+        top: 220px;
+    }
+
+    #logo-tw {
+        background-image: url(../imagens/logo-twitter.jpg);
+        top: 290px;
+    }
+
+    #logo-fb {
+        background-image: url(../imagens/logo-facebook.jpg);
+        top: 360px;
+    }
