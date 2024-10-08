@@ -1,0 +1,26 @@
+
+    html , body {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+
+    figure {
+        display: flex;
+        background-image: url(../imagens/tela-home.jpg);    
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 220px;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
