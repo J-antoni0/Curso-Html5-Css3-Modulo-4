@@ -30,9 +30,14 @@
     }
 
     div#botão-acessar {
-        background-color: #E80106;
+        background-color: #7D0102;
         height: 80px;
         width: 198px;
+    }
+    
+    div#botão-acessar:hover {
+        transition-duration: 2s;
+        background-color: #E80106;
     }
 
     p#text {
@@ -52,3 +57,4 @@
         text-decoration: none;
     }
 
+    
