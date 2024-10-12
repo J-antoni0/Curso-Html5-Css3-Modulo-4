@@ -2,3 +2,4 @@
 
 [ ] solucionar o bug do outline nos figure 'home' e 'yt'
 
+[ ] tirar a visualização da rolagem, mas sem tirar a funcionalidade
