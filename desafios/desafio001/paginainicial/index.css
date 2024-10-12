@@ -49,13 +49,20 @@
         background-repeat: no-repeat;
         background-size: 50px;
         border-radius: 50%;
+        box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.651);
+    }
+    
+    figure.logos:hover {
+        transition-duration: 2s;
+        outline: 1px solid white;
+        box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.603); 
     }
 
     #logo-home {
         background-image: url(../imagens/logo-home.jpg);
         top: 10px;
     }
-
+    
     #logo-yt {
         background-image: url(../imagens/logo-youtube.jpg);
         top: 80px;

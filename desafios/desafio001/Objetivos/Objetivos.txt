@@ -1,0 +1,4 @@
+[ ]  Colocar o site responsivo
+
+[ ] solucionar o bug do outline nos figure 'home' e 'yt'
+

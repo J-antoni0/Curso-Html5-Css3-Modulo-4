@@ -1,0 +1,54 @@
+
+    @charset "UTF-8";
+
+    html {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        flex-direction: column;
+        justify-content: column;
+    }
+
+    figure {
+        background-image: url(../imagens/tela-youtube.png);    
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-attachment: scroll;
+        height: 983px;
+        width: 100%;
+        margin: 0;
+    }
+
+    div#botão-acessar {
+        background-color: #E80106;
+        height: 80px;
+        width: 198px;
+    }
+
+    p#text {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: larger;
+        color: white;
+        box-sizing: border-box;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
