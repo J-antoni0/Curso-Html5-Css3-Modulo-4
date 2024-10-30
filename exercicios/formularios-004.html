@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="imail">Email :</label>
+                <input type="email" name="imail" id="imail">
+            </p>
+            <p>
+                <label for="number">Numero :</label>
+                <input type="tel" name="number" id="number" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
