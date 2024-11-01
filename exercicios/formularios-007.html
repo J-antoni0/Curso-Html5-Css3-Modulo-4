@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <p>
+            <label for="est">Estado:</label>
+            <select name="Estado" id="est">
+                <option value="">-- Escolha --</option>
+                <optgroup label="Região Sudeste">
+                    <option value="SC">sc</option>
+                    <option value="RJ">RJ</option>
+                    <option value="SP">SP</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="listpro">Lista de Profissão :</label>
+            <input type="text" name="list" id="listpro" list="profissao">
+            <datalist id="profissao">
+                <option value="Pro">Professor</option>
+                <option value="Tec">Técnico</option>
+                <option value="Jog">Jogador</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="Mensagem :"></label>
+            <textarea name="msg" id="Mensagem" cols="30" rows="5"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+    </form>
+</body>
+</html>
